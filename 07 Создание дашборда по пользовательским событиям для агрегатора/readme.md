@@ -25,12 +25,12 @@
 
 **Для создания дашборда выполнить шаги:**
 1. Скачать файл https://***/CA.pem 
-2. Создать подключение к базе с конфигурацией:
-`user`: 'praktikum_student', # имя пользователя
-`pwd`: '******', # пароль
-`host`: 'rc1b-wcoijxj3yxfsf3fs.mdb.yandexcloud.net',
-`port`: 6432, # порт подключения
-`db`: 'data-analyst-zen-project-db'} # название базы данных
+2. Создать подключение к базе с конфигурацией:  
+    `user`: 'praktikum_student', # имя пользователя
+    `pwd`: '******', # пароль
+    `host`: 'rc1b-wcoijxj3yxfsf3fs.mdb.yandexcloud.net',
+    `port`: 6432, # порт подключения
+    `db`: 'data-analyst-zen-project-db'} # название базы данных
 3. В Jupyter Notebook напиcать код для выгрузки данных из таблицы dash_visits в файл dash_visits.csv;
 4. В Tableau Public на основе файла dash_visits.csv сформируйте дашборд в соответствии с макетом;
 5. Опубликовать дашборд на сайте Tableau Public;
